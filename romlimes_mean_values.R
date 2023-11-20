@@ -3,6 +3,8 @@ source("Wuchswerte_2.R")
 
 romlimes <- read.rwl("data/ROMLIMES.rwl")
 
+rwl.report(romlimes)
+
 romlimes_hol <- as.rwl(wuchswerte_2(romlimes))
 
 romlimes_glk_list <- glk(romlimes, overlap = 50)
@@ -18,6 +20,12 @@ mean_ssgc <- mean(romlimes_sgc_list$ssgc_mat[upper.tri(romlimes_sgc_list$ssgc_ma
 mean_p <- mean(romlimes_sgc_list$p_mat[upper.tri(romlimes_sgc_list$p_mat)], na.rm = TRUE)
 
 mean_cor <- mean(romlimes_cor$spearman.rho, na.rm = TRUE)
+
+
+# calculating mean buy adding 1 for each self-comparison
+mean(c(romlimes_glk_list$glk_mat[upper.tri(romlimes_glk_list$glk_mat)], rep(1,69)) , na.rm = TRUE)
+mean(c(romlimes_sgc_list$sgc_mat[upper.tri(romlimes_sgc_list$sgc_mat)], rep(1,69)), na.rm = TRUE)
+
 
 write.csv(romlimes_sgc_list$sgc_mat, "export/romlimes_sgc_mat.csv")
 write.csv(romlimes_sgc_list$ssgc_mat, "export/romlimes_ssgc_mat.csv")
