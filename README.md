@@ -1,7 +1,6 @@
 # RomLimes
 
-![image](https://github.com/RonaldVisser/RomLimes/assets/38214052/c96e9f88-fa14-4c20-862b-9ad0ac522c6c)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10160733.svg)](https://doi.org/10.5281/zenodo.10160733)
 
 Repository with reproducible analyses from 2023 related to:
 
