@@ -1,6 +1,5 @@
 # RomLimes
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10160733.svg)](https://doi.org/10.5281/zenodo.10160733)
 
 Repository with reproducible analyses from 2023 related to:
 
