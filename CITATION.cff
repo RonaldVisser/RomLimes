@@ -4,7 +4,8 @@ authors:
   - family-names: Visser
     given-names: Ronald
     orcid: "https://orcid.org/0000-0001-6966-1729"
-title: "Reproducible code and data related to an updated version of "Imperial timber? Dendrochronological evidence for large-scale road building along the Roman limes in the Netherlands" (2015)"
+title: "Reproducible code and data related to an updated version of 'Imperial timber? Dendrochronological evidence for large-scale road building along the Roman limes in the Netherlands' (2015)"
 version: 1.0.0
-date-released: 2023-11-20
+DOI: 10.5281/zenodo.10964162
+date-released: 2024-04-12
 url: "https://github.com/RonaldVisser/RomLimes"
